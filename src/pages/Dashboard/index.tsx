@@ -68,7 +68,7 @@ const Dashboard: React.FC = () => {
 
       <Form hasError={!!inputError} onSubmit={handleAddRepository}>
         <input
-          placeholder="Digite aqui"
+          placeholder="user/repo"
           value={newRepo}
           onChange={(e) => setNewRepo(e.target.value)}
         />
